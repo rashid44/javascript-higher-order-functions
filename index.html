@@ -3,17 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Git Project</title>
+    <title>Javascript Higher Order Functions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <h1>Home</h1>
-    <h2>Revision Four</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quas consectetur adipisci mollitia vel labore enim, nihil odit repudiandae distinctio voluptatibus qui dolor quia modi tempore voluptas. Reiciendis, aperiam maxime.</p>
-    <p>Another Paragraph</p>
+    <code>
+        function greaterThan(n) {
+            return m => m > n;
+        }
 
-    <p>Revision Three</p>
-
-    <p>App01 branch test</p>
+        let greaterThan10 = greaterThan(10);
+        console.log(greaterThan10(11));
+    </code>
 </body>
 </html>
