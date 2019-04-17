@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Javascript Higher Order Functions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/prism.css">
 </head>
 <body>
-    <code>
-        function greaterThan(n) {
-            return m => m > n;
-        }
+    <pre>
+        <code class="language-javascript">
+            function greaterThan(n) {
+                return m => m > n;
+            }
 
-        let greaterThan10 = greaterThan(10);
-        console.log(greaterThan10(11));
-    </code>
+            let greaterThan10 = greaterThan(10);
+            console.log(greaterThan10(11));
+        </code>
+    </pre>
+    <script src="./js/prism.js"></script>
 </body>
 </html>
